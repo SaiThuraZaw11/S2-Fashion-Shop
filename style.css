@@ -6,25 +6,20 @@
    Signature: dashed "stitch line" divider between sections
    ========================================================== */
 
-:root {
-  --background: #FAF6ED;
-  --foreground: #1C1409;
-  --primary: #C9A84C;
-  --primary-foreground: #1C1409;
-  --secondary: #F5E6A3;
-  --secondary-foreground: #1C1409;
-  --accent: #8B6914;
-  --accent-foreground: #FAF6ED;
-  --muted: #EDE3CC;
-  --muted-foreground: #7A6540;
-  --card: #FDF9F0;
-  --card-foreground: #1C1409;
-  --border: #DFD0A8;
-  --input: #EDE3CC;
-  --ring: #C9A84C;
-  --radius: 0.75rem;
-  --font-sans: 'DM Sans', sans-serif;
-  --font-display: 'Fraunces', serif;
+:root{
+  --bg:        #0F0D09;
+  --bg-2:      #17130C;
+  --surface:   #1D1811;
+  --line:      #362C1D;
+  --gold:      #C9A84C;
+  --gold-hi:   #E8D083;
+  --ivory:     #F3ECDD;
+  --muted:     #9C8F72;
+
+  --display: 'Cormorant Garamond', serif;
+  --body: 'Jost', 'Noto Sans Myanmar', sans-serif;
+
+  --radius: 2px;
 }
 
 *{ box-sizing: border-box; }
