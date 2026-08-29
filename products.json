@@ -9,11 +9,20 @@
     "description": "Silk-blend wrap dress with an antique-gold sash. Soft drape, flattering on every body shape."
   },
   {
-    "id": "image16",
+    "id": "image11",
+    "name": "Golden Hour Wrap Dress",
+    "category": "T-shirt",
+    "price": "48,000 Ks",
+    "image": "images/image11.jpg",
+    "new": true,
+    "description": "Silk-blend wrap dress with an antique-gold sash. Soft drape, flattering on every body shape."
+  },
+  {
+    "id": "image18",
     "name": "Ivory Linen Blouse",
     "category": "Top",
     "price": "22,000 Ks",
-    "image": "images/image16.jpg",
+    "image": "images/image18.jpg",
     "new": true,
     "description": "Breathable linen blouse with mother-of-pearl buttons. Pairs well with denim or tailored trousers."
   },
@@ -36,20 +45,20 @@
     "description": "Sun-pleated midi skirt in warm amber. Moves beautifully, lightweight for hot days."
   },
   {
-    "id": "sp005",
+    "id": "image14",
     "name": "Noir Statement Blazer",
     "category": "Outerwear",
     "price": "56,000 Ks",
-    "image": "images/sp005.jpg",
+    "image": "images/image14.jpg",
     "new": false,
     "description": "Structured single-button blazer with gold-thread lining detail. The one piece that finishes any outfit."
   },
   {
-    "id": "sp006",
+    "id": "image20",
     "name": "Champagne Slip Dress",
     "category": "Dress",
     "price": "39,000 Ks",
-    "image": "images/sp006.jpg",
+    "image": "images/image20.jpg",
     "new": false,
     "description": "Bias-cut slip dress in champagne satin. Minimal, quietly luxurious."
   }
