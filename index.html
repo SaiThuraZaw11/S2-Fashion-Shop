@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>S2 Fashion — Showcase</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Jost:wght@300;400;500;600&family=Noto+Sans+Myanmar:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="wordmark" href="#top">S2 <span>FASHION</span></a>
+      <nav class="nav-links">
+        <a href="#new">New Arrivals</a>
+        <a href="#catalog">Catalog</a>
+        <a href="#contact">Order</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <p class="eyebrow">Yangon · Curated Womenswear</p>
+      <h1 class="hero-title">Dressed in<br>quiet gold.</h1>
+      <p class="hero-sub">အထည်အလှများကို လက်ရွေးစင် ဆန်းသစ်စွာ တင်ဆက်ပါသည်။<br class="mobile-break"> ကြိုက်နှစ်သက်တာကို Viber / Messenger / Telegram ဖြင့် တိုက်ရိုက်မှာယူနိုင်ပါသည်။</p>
+      <a href="#new" class="btn btn-primary">New Arrivals ကြည့်ရန်</a>
+    </div>
+    <div class="stitch-line" aria-hidden="true"></div>
+  </section>
+
+  <!-- ============ NEW ARRIVALS ============ -->
+  <section class="section" id="new">
+    <div class="section-head">
+      <p class="eyebrow">လတ်တလော</p>
+      <h2>New Arrivals</h2>
+    </div>
+    <div class="rail" id="new-arrivals-rail">
+      <!-- injected by script.js -->
+    </div>
+  </section>
+
+  <div class="stitch-line" aria-hidden="true"></div>
+
+  <!-- ============ CATALOG ============ -->
+  <section class="section" id="catalog">
+    <div class="section-head">
+      <p class="eyebrow">အားလုံးကြည့်ရန်</p>
+      <h2>Catalog</h2>
+    </div>
+    <div class="filters" id="filters">
+      <!-- injected by script.js -->
+    </div>
+    <div class="grid" id="catalog-grid">
+      <!-- injected by script.js -->
+    </div>
+  </section>
+
+  <div class="stitch-line" aria-hidden="true"></div>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section contact" id="contact">
+    <div class="section-head center">
+      <p class="eyebrow">မှာယူရန်</p>
+      <h2>Order Directly</h2>
+      <p class="contact-sub">ကြိုက်တဲ့ ပစ္စည်းနံပါတ် (သို့) ပုံကို ပေးပို့ပြီး အောက်ကလင့်တစ်ခုခုကနေ ဆက်သွယ်ပါ</p>
+    </div>
+    <div class="contact-buttons">
+      <a class="contact-btn" id="contact-viber" href="#" target="_blank" rel="noopener">
+        <span class="dot"></span> Viber
+      </a>
+      <a class="contact-btn" id="contact-messenger" href="#" target="_blank" rel="noopener">
+        <span class="dot"></span> Messenger
+      </a>
+      <a class="contact-btn" id="contact-telegram" href="#" target="_blank" rel="noopener">
+        <span class="dot"></span> Telegram
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> S2 Fashion — Showcase Only, Not an Online Store</p>
+  </footer>
+
+  <!-- Product quick-view modal -->
+  <div class="modal" id="modal" hidden>
+    <div class="modal-card">
+      <button class="modal-close" id="modal-close" aria-label="Close">×</button>
+      <img id="modal-img" src="" alt="">
+      <div class="modal-body">
+        <p class="modal-cat" id="modal-cat"></p>
+        <h3 id="modal-name"></h3>
+        <p id="modal-desc"></p>
+        <p class="modal-price" id="modal-price"></p>
+        <div class="modal-actions" id="modal-actions"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
