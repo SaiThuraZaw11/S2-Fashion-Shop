@@ -1,10 +1,10 @@
 [
   {
-    "id": "sp001",
+    "id": "image4",
     "name": "Golden Hour Wrap Dress",
-    "category": "Dress",
+    "category": "T-shirt",
     "price": "48,000 Ks",
-    "image": "images/sp001.jpg",
+    "image": "images/image4.jpg",
     "new": true,
     "description": "Silk-blend wrap dress with an antique-gold sash. Soft drape, flattering on every body shape."
   },
