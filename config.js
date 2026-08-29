@@ -7,7 +7,7 @@
 const CONTACT_CONFIG = {
   // Viber: your phone number in international format, no + or spaces
   // Example: 9595xxxxxxx
-  viberNumber: "959XXXXXXXXX",
+  viberNumber: "959400116662",
 
   // Messenger: your Facebook Page username (from your Page URL)
   // Example facebook.com/S2FashionMM -> "S2FashionMM"
