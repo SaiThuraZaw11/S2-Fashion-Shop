@@ -291,7 +291,7 @@ img{ max-width: 100%; display: block; }
   width: 220px;
   height: 220px;
 
-  background-image: url("images/s2-logo.png");
+  background-image: url("images/s2logo.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
