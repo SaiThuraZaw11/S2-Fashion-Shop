@@ -288,8 +288,8 @@ img{ max-width: 100%; display: block; }
   bottom: 0;
   transform: translateX(-50%);
 
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
 
   background-image: url("images/s2logo.png");
   background-repeat: no-repeat;
