@@ -9,29 +9,29 @@
     "description": "Silk-blend wrap dress with an antique-gold sash. Soft drape, flattering on every body shape."
   },
   {
-    "id": "sp002",
+    "id": "image16",
     "name": "Ivory Linen Blouse",
     "category": "Top",
     "price": "22,000 Ks",
-    "image": "images/sp002.jpg",
+    "image": "images/image16.jpg",
     "new": true,
     "description": "Breathable linen blouse with mother-of-pearl buttons. Pairs well with denim or tailored trousers."
   },
   {
-    "id": "sp003",
+    "id": "image24",
     "name": "Charcoal Tailored Trousers",
     "category": "Bottom",
     "price": "31,000 Ks",
-    "image": "images/sp003.jpg",
+    "image": "images/image24.jpg",
     "new": false,
     "description": "High-waisted tailored trousers with a clean straight leg. Office-ready, evening-ready."
   },
   {
-    "id": "sp004",
+    "id": "image28",
     "name": "Amber Pleated Skirt",
     "category": "Bottom",
     "price": "27,500 Ks",
-    "image": "images/sp004.jpg",
+    "image": "images/image28.jpg",
     "new": true,
     "description": "Sun-pleated midi skirt in warm amber. Moves beautifully, lightweight for hot days."
   },
